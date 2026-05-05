@@ -103,28 +103,3 @@ enabling the Ministry of Water to shift from reactive to proactive maintenance.
 4. **Annual retraining** — refresh the model yearly with new
    survey data to maintain prediction accuracy as pump conditions
    change over time
-
-## Repository Navigation
-
-| File/Folder | Description |
-|-------------|-------------|
-| `notebook.ipynb` | Full CRISP-DM analysis notebook |
-| `presentation.pdf` | Non-technical stakeholder slide deck |
-| `data/` | Raw CSV files (not tracked by git) |
-| `images/` | All visualizations saved by the notebook |
-| `README.md` | Project summary (this file) |
-
-## How to Reproduce
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/gachuratheuri/TanzaniaWells.git
-   ```
-2. Download data files from DrivenData and place in the `data/` folder:
-   - `training_values.csv`
-   - `training_labels.csv`
-   - `test_values.csv`
-3. Open `notebook.ipynb` in Jupyter or VS Code.
-4. Run: **Kernel → Restart & Run All**.
-5. All outputs and images will be generated automatically into `images/` and
-   `data/submission.csv`.
