@@ -47,7 +47,7 @@ Four models were built iteratively following the CRISP-DM framework:
 | 1 | Logistic Regression (Baseline) | 0.4454 | 0.4423 | 0.0031 | |
 | 2 | Decision Tree (Default depth) | 0.9844 | 0.6487 | 0.3357 | |
 | 3 | Decision Tree (Tuned: max_depth=15) | 0.6281 | 0.5766 | 0.0515 | |
-| 4 | Random Forest (100 trees) | 0.7651 | 0.6677 | 0.0974 | ✅ FINAL |
+| 4 | Random Forest (100 trees) | 0.7651 | 0.6677 | 0.0974 | |
 
 **Iteration rationale:**
 - Model 1 → 2: Logistic Regression underfits (F1=0.44). Decision Tree
