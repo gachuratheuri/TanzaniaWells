@@ -1,0 +1,8 @@
+data/training_values.csv
+data/training_labels.csv
+data/test_values.csv
+data/submission.csv
+*.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*.pkl
